@@ -1,0 +1,66 @@
+body{
+    background-color: rgb(208, 208, 208);
+}
+.page{
+    position: relative;
+    width: 80%;
+    margin: 1% 5%;
+    padding: 5%;
+    background-color: white;
+}
+.Downlode{
+    position: absolute;
+    background-color: rgb(255, 255, 255);
+    height: 4%;
+    width: 4%;
+    color: blue;
+}
+
+.top-container,.bottom-container{
+    text-align: center;
+}
+.grid-container{
+    margin-top: 3%;
+    margin-left:3%;
+    margin-right: 3%;
+    display: grid;
+    grid-template-columns: 2fr 1fr;
+}
+.grid-container  h3,p{
+    margin: 0;
+}
+.grid-container  p{
+    margin-bottom: 1%;
+}
+.grid-container .card{
+    margin-top: 0.5%;
+    margin-bottom: 0.5%;
+}
+.grid-container .left{
+    text-align: left;
+}
+.grid-container .right{
+    text-align: right;
+}
+
+
+.Experience > .Experience-data{
+    margin-left:3%;
+    margin-right: 3%;
+}
+.flex-container{
+    display: flex;
+}
+.flex-container .card{
+    flex: 1;
+}
+.flex-container .left{
+    flex: 2;
+    text-align: left;
+
+}
+.flex-container .right{
+    flex: 1;
+    text-align: right;
+
+}
